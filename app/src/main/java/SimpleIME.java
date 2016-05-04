@@ -6,7 +6,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
 
-import kamino.com.jangokeyboard.R;
+import com.kamino.jangokeyboard.R;
 
 /**
  * Created by Joel on 5/3/2016.

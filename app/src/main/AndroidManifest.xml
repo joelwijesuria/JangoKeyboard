@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kamino.com.jangokeyboard">
+    package="com.kamino.jangokeyboard">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
 
         <service
             android:label="@string/jango_keyboard"
-            android:name=".SimpleIME"
+            android:name="com.kamino.jangokeyboard.SimpleIME"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <meta-data
                 android:name="android.view.im"
