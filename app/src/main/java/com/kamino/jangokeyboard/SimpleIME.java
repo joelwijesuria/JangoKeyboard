@@ -1,3 +1,5 @@
+package com.kamino.jangokeyboard;
+
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
@@ -11,7 +13,7 @@ import com.kamino.jangokeyboard.R;
 /**
  * Created by Joel on 5/3/2016.
  */
-class SimpleIME extends InputMethodService
+public class SimpleIME extends InputMethodService
         implements KeyboardView.OnKeyboardActionListener {
 
     private KeyboardView kv;
